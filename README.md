@@ -1,6 +1,7 @@
 # A thermostat using the Sparkfun MicroView and a DS18S20
 
 By Scott Allen
+
 Based on code from http://bildr.org/2011/07/ds18b20-arduino/
 
 ## Description
@@ -18,11 +19,13 @@ In addition to the heater *on* and *off* temperature settings, separate high and
 ## Required Libraries
 
 [MicroView.h](https://github.com/sparkfun/SparkFun_MicroView_Arduino_Library/)
+
 [OneWire.h](https://github.com/PaulStoffregen/OneWire)
 
 ## License
 
 Copyright (c) 2016 Scott Allen
+
 Copyright (c) 2010 bildr community
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
