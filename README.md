@@ -16,6 +16,10 @@ Two output pins are used to control heater(s). The pins will always be in same s
 
 In addition to the heater *on* and *off* temperature settings, separate high and low *alert* temperatures can be set. If the temperature goes outside the range of the *alert* temperatures, the display will flash with a *TOO HIGH!* or *TOO LOW!* message added.
 
+### Note:
+
+The font used to display the temperature doesn't include a minus sign. Only positive temperatures will display properly unless a different font is used.
+
 ## Required Libraries
 
 [MicroView.h](https://github.com/sparkfun/SparkFun_MicroView_Arduino_Library/)
