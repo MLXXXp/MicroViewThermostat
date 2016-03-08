@@ -38,7 +38,7 @@ THE SOFTWARE.
 #define HEAT_OFF HIGH
 
 // Comment out the following line for Celsius 
-#define FAREINHEIT_SCALE
+#define FAHRENHEIT_SCALE
 
 // Turn on heat when the temperature goes below this value
 const float HeatOnTemp = 77;
@@ -89,7 +89,7 @@ void loop() {
     return;
   }
 
-#ifdef FAREINHEIT_SCALE
+#ifdef FAHRENHEIT_SCALE
   temperature = temperature * 9/5 + 32;
 #endif
 
