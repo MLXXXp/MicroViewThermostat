@@ -141,7 +141,6 @@ void heatControl(boolean on) {
   if (on) {
     uView.print("ON");
     setHeat(HEAT_ON);
-
   }
   else {
     uView.print("OFF");
