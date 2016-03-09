@@ -1,5 +1,5 @@
 // MicroView temperature display and thermostat using the
-// DS18S20 1-Wire digital thermometer IC
+// DS18S20 or DS18B20 1-Wire digital thermometer IC
 
 // Based on code from http://bildr.org/2011/07/ds18b20-arduino/
 

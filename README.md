@@ -1,4 +1,4 @@
-# A thermostat using the Sparkfun MicroView and a DS18S20
+# A thermostat using the Sparkfun MicroView and a DS18S20 or DS18B20
 
 By Scott Allen
 
@@ -6,7 +6,7 @@ Based on code from http://bildr.org/2011/07/ds18b20-arduino/
 
 ## Description
 
-A simple thermostat using the [SparkFun MicroView](https://www.sparkfun.com/products/12923) as a controller and display. Temperature is read from an attached [DS18S20](https://www.maximintegrated.com/en/products/analog/sensors-and-sensor-interface/DS18S20.html/tb_tab3) 1-Wire temperature sensor IC. Heater(s) can be attached to output(s) to maintain a temperature within a specified range.
+A simple thermostat using the [SparkFun MicroView](https://www.sparkfun.com/products/12923) as a controller and display. Temperature is read from an attached [DS18S20](https://www.maximintegrated.com/en/products/analog/sensors-and-sensor-interface/DS18S20.html) or [DS18B20](https://www.maximintegrated.com/en/products/analog/sensors-and-sensor-interface/DS18B20.html) 1-Wire temperature sensor IC. Heater(s) can be attached to output(s) to maintain a temperature within a specified range.
 
 ## Usage
 
