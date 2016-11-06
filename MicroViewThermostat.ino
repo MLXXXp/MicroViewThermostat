@@ -207,8 +207,10 @@ float getTemp() {
   ds.select(addr);
   ds.write(0x44,1); // start conversion, with parasite power on at the end
 
+  delay(750); // Wait for temperature conversion to complete
+
   byte present = ds.reset();
-  ds.select(addr);    
+  ds.select(addr);
   ds.write(0xBE); // Read Scratchpad
 
   for (int i = 0; i < 9; i++) { // we need 9 bytes
